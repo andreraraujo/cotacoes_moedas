@@ -9,14 +9,17 @@ A aplicação consiste em um menu contendo 5 moedas estrangeiras, no qual o clie
 # Como executar o projeto
 
 ## Python
-Pré-requisitos: pandas-datareader
+Pré-requisitos: -
 
 ```bash
 # clonar repositório
 git clone https://github.com/andreraraujo/cotacoes_moedas
 
 # instalar dependências
-pip install pandas-datareader
+pip install pandas
+pip install pandas_datareader
+pip install yfinance
+pip install matplotlib
 
 # executar o projeto
 ```
